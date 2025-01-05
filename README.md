@@ -32,7 +32,7 @@ git clone https://github.com/IsaSubhi/Terraform_AWS_Cloudfront.git
 cd Terraform_AWS_Cloudfron
 ```
 
-2. Update AWS Credentials: Modify the provider block in [provider.tf]() with your AWS access_key and secret_key.
+2. Update AWS Credentials: Modify the provider block in [provider.tf](./provider.tf) with your AWS access_key and secret_key.
 
 3. Initialize Terraform:
 ```
@@ -55,4 +55,4 @@ terraform apply
 ### Customization
 - Replace the default index.html and image.jpg files in the ./app/ folder with your own website files.
 - Update TTL or caching configurations in the CloudFront default_cache_behavior block as needed.
-- Change S3 bucket name in the [variables.tf]() file.
+- Change S3 bucket name in the [variables.tf](./variables.tf) file.
