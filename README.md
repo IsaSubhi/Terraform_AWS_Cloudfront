@@ -3,6 +3,7 @@
 ## Terraform Project for S3 & CloudFront Static Website Hosting
 ### Overview
 This project provisions a static website hosting infrastructure on AWS. The setup includes an S3 bucket for storing website files and a CloudFront distribution for secure and high-performance global delivery. With this project, you can easily deploy and serve a static website backed by AWS's scalable and reliable services.
+![tf-aws-cf](https://github.com/user-attachments/assets/3b4dbedf-11cf-47de-be0f-39404ecb1f4b)
 
 ### Components
 - S3 Bucket:
